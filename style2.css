@@ -1,0 +1,39 @@
+
+      
+
+      p {color:red;}
+      body {
+            background-color:white;
+        }
+  
+h1{color:seagreen}
+
+h2 {
+    color: turquoise;
+    font-family: 'Times New Roman', Times, serif'
+}
+
+
+.box1 {
+    background-color:aquamarine;
+    height: 15vw;
+    width: 15vh;
+}
+
+.box2 {
+    background-color:olive;
+    height: 15vw;
+    width: 15vh;
+}
+
+.container {
+    outline:1px solid black;
+    background-color: bisque;
+    width: 100vw;
+    Height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}

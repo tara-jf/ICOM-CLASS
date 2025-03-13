@@ -1,0 +1,22 @@
+* { margin: 0px;
+box-sizing: border-box;
+}
+
+body {
+
+    background-color: sienna;
+}
+
+.grid-parent {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+
+   grid-template-rows : 1fr 1fr 1fr;
+}
+
+.grid-child {
+    border: 1px solid;
+}
